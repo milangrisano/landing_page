@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:provider/provider.dart';
 import 'package:vertical_landing_page/providers/page_provider.dart';
 import 'package:vertical_landing_page/router/router.dart';
  
 void main() {
-  setUrlStrategy(PathUrlStrategy());
   runApp(AppState());
 }
 
@@ -44,7 +42,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Landing Page',
-      initialRoute: '/about',
+      initialRoute: '/Home',
       onGenerateRoute: Flurorouter.router.generator,
     );
   }
