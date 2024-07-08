@@ -9,11 +9,11 @@ class HomeView extends StatelessWidget {
       color: Colors.pink,
       child: Column(
         children: [
-          Container(
-            color: Colors.blueAccent,
-            width: size.width,
-            height: 80,
-          ),
+          // Container(
+          //   color: Colors.blueAccent,
+          //   width: size.width,
+          //   height: 80,
+          // ),
           Padding(
             padding: const EdgeInsets.only(top:10),
             child: Container(
